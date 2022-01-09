@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="canonical" href="/work/" />
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
@@ -33,18 +34,21 @@
 <body>
     <div class="main">
         <header>
-    <nav class="nav">
-        <ul class="navbar flex end">
-            <li class="nav-item"><a href="/work">Work</a></li>
-            <li class="nav-item"><a href="/about">About</a></li>
-            <li class="nav-item"><a href="/resume">Resume</a></li>
-            <li class="nav-item"><a href="/contact">Contact</a></li>
-            
-        </ul>
-    </nav>
+            <nav class="nav">
+                <ul class="navbar flex" style="justify-content: space-between;">
+                    <a style="font-size: 42px; color: #EA4C89; margin-top: -13px; font-weight: 100;" href='/index.html'>Ts</a>
+                     <div class="flex">   
+                        <li class="nav-item"><a href="/work">Work</a></li>
+                        <!-- <li class="nav-item"><a href="/about">About</a></li> -->
+                        <li class="nav-item"><a href="/Resume.pdf" target="_blank">Resume</a></li>
+                        <li class="nav-item"><a href="/contact">Contact</a></li>
+                    </div>
+                    
+                </ul>
+            </nav>
 </header> 
         
-<section class="container">
+<section class="container" style="margin-top: 5rem;">
     
 <article class="leading-normal article" style="margin-bottom: 40px; margin-top: 40px;">
   <div>
@@ -54,10 +58,10 @@
         <div style="max-width: 600px">
             <p style="font-size: 32px; margin-bottom: 40px;">Project Overview</p>
         <p style="font-size: 24px; margin-bottom: 20px;">CHALLENGE</p>
-        <p style="font-size: 18px; margin-bottom: 20px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+        <p style="font-size: 18px; margin-bottom: 20px;">After doing numerous user interviews and speaking with Dunzo's frequent customers, I discovered that, although being a fantastic application, Dunzo lacked a few features or flows that may contribute to higher customer retention. </p>
         <p style="font-size: 24px;margin-bottom: 20px;">SOLUTION</p>
-        <p style="font-size: 18px;margin-bottom: 20px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
-        <button style="margin-top: 10px;" type="button" class="btn btn-outlined">View Prototype</button>
+        <p style="font-size: 18px;margin-bottom: 20px;">In this case study, I propose additional features such as a subscription model and a personalised shopping list, which may result in a smoother checkout process, better client retention, and loyalty.</p>
+        <button style="margin-top: 10px;" type="button" class="btn btn-outlined"><a href='#prototype'>View Prototype</a></button>
         </div>
         <div style="margin-top: 11px;">
             <div style="margin-bottom: 30px;">
@@ -106,7 +110,7 @@
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
         <p style="font-size: 32px; margin-bottom: 20px;">Background</p>
-        <p>
+        <p style="line-height: 30px;">
             Just to give you a bit of a background, Dunzo is a Bangalore-based hyper-local delivery service that connects users to the nearest delivery partner. The delivery and e-commerce company offers services that include delivery of packages, food, medicines, pet supplies, and more. It was co-founded in 2015 by Ankur Agarwal, Dulvir Suri, Kabir Biswas, and Mukund Jha.
         </p>
         <p style="margin-top: 32px; font-style: italic; font-size: 20px;">“From any store to your door, just make a list and we’ll make it disappear. Just Dunzo it!”- Dunzo mission statement.</p>
@@ -196,14 +200,14 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
         <p>After brainstorming and survey, I came up with two approaches which will help in solving two problems i.e. Lack of usage and complex checkout process which in turn increase the engagement and loyalty of the customers.</p>
     </div>
 
-    <div style="margin-top: 80px; margin-bottom: 80px;">
+    <div style="margin-top: 80px; margin-bottom: 80px;" id='prototype'>
         <p style="font-size: 26px; margin-bottom: 20px;">1. Creating Personalized Shopping List</p>
         <p><b>Consider those eCommerce personalized stats:</b></p>
         <ul>
-            <li>Marketers see an average increase of 20% in sales when using personalized experiences. (Monetate)</li>
-            <li>80% of shoppers are more likely to buy from a company that offers personalized experiences. (Epsilon) </li>
-            <li>44% of consumers say that they will likely become repeat buyers after a personalized shopping experience with a particular company. (Segment)</li>
-            <li>77% of consumers have chosen, recommended, or paid more for a brand that provides a personalized service or experience. (Forrester) </li>
+            <li>Marketers see an average increase of 20% in sales when using personalized experiences. <a style="text-decoration: underline;" href="https://kibocommerce.com/blog/what-is-ecommerce-personalization/?utm_campaign=monetate_redirect" target="_blank">(Monetate)</a></li>
+            <li>80% of shoppers are more likely to buy from a company that offers personalized experiences. <a style="text-decoration: underline;" href="https://www.epsilon.com/us/about-us/pressroom/new-epsilon-research-indicates-80-of-consumers-are-more-likely-to-make-a-purchase-when-brands-offer-personalized-experiences" target="_blank">(Epsilon)</a> </li>
+            <li>44% of consumers say that they will likely become repeat buyers after a personalized shopping experience with a particular company. <a style="text-decoration: underline;" href="http://grow.segment.com/Segment-2017-Personalization-Report.pdf" target="_blank">(Segment)</a></li>
+            <li>77% of consumers have chosen, recommended, or paid more for a brand that provides a personalized service or experience. <a style="text-decoration: underline;" href="https://www.forrester.com/analyst-bio/brendan-witcher/BIO7744" target="_blank">(Forrester)</a></li>
             <li>However, in another Forrester survey, 53% of digital experience delivery professionals said they lack the right technology to personalize experiences. </li>
         </ul>
     </div>
@@ -214,8 +218,8 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
     </div>
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
-        <p style="font-size: 26px; margin-bottom: 20px;">Pre-defined Personalized List Flow Screens</p>
-        <div>
+        <p style="font-size: 26px; margin-bottom: 40px;">Pre-defined Personalized List Flow Screens</p>
+        <div style="margin-bottom: 20px;">
             <img src="../assets/Screenshot 2021-07-22 at 5.34.50 PM.png" width="266" height="525">
             <img src="../assets/Screenshot 2021-07-13 at 6.57 1.png" width="266" height="525">
             <img src="../assets/Screenshot 2021-07-13 at 6.57 4.png" width="266" height="525">
@@ -224,12 +228,13 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
     </div>
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
-        <p style="font-size: 26px; margin-bottom: 20px;">Custom Personalized List Flow Screens</p>
-        <div>
-            <img src="../assets/Screenshot 2021-07-22 at 5.34.50 PM.png" width="266" height="525">
-            <img src="../assets/Screenshot 2021-07-13 at 6.57 1.png" width="266" height="525">
-            <img src="../assets/Screenshot 2021-07-13 at 6.57 4.png" width="266" height="525">
-            <img src="../assets/Screenshot 2021-07-13 at 6.57 3.png" width="266" height="525">
+        <p style="font-size: 26px; margin-bottom: 40px;">Custom Personalized List Flow Screens</p>
+        <div style="margin-bottom: 20px;">
+            <img src="../assets/1.png" width="266" height="525">
+            <img src="../assets/2.png" width="266" height="525">
+            <img src="../assets/3.png" width="266" height="525">
+            <img src="../assets/4.png" width="266" height="525">
+            <img src="../assets/5.png" width="266" height="525">
         </div>
     </div>
 
@@ -244,6 +249,7 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
             Professional Services Sales Growth rate of 4.7%.
             
             </p>
+            <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;"><img src="../assets/6.png" width="802" height="458"></div>
             <p><b>Advantages of subcription model for the business</b></p>
             <ul>
                 <li><b>Increased return on customer acquisition costs</b></li>
@@ -277,7 +283,17 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
         <p style="font-size: 26px; margin-bottom: 20px;">Wireframes</p>
-        <img src="../assets/Screenshot 2021-07-11 at 1.01 1.png" width="1040" height="609">
+        <img src="../assets/7.png" width="1040" height="485">
+    </div>
+
+    <div style="margin-top: 80px; margin-bottom: 80px;">
+        <p style="font-size: 26px; margin-bottom: 40px;">UI Screens</p>
+        <div style="margin-bottom: 20px;">
+            <img src="../assets/8.png" width="266" height="525">
+            <img src="../assets/9.png" width="266" height="525">
+            <img src="../assets/10.png" width="266" height="525">
+            <img src="../assets/11.png" width="266" height="525">
+        </div>
     </div>
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
@@ -294,35 +310,37 @@ I started my user research with a survey of 6 open-ended questions. Surveys have
                 <li>Usability test of the prototype with users.</li>
                 <li>Design direction.</b></li>
             </ol>
-            <li><b>Learnings</li>
+            <li><b>Learnings</b></li>
             <p>This project gives me an understanding that how difficult it is to introduce a small new feature into a reputed company. The touchpoints we need to consider before changing a small button on a screen.</p>
         </ul>
-        <p>After brainstorming and survey, I came up with two approaches which will help in solving two problems i.e. Lack of usage and complex checkout process which in turn increase the engagement and loyalty of the customers.</p>
+        
     </div>
 
     <div style="margin-top: 80px; margin-bottom: 80px;">
         <p style="font-size: 26px; margin-bottom: 20px;">Project Acknowledgements</p>
-        <p>Lastly, I want to thank my mentor Dhananjay Garg for all his time and effort in teaching me UI/UX Design, working closely with him was an estimable experience. I have enhanced myself in understanding the broad spectrum of design, thinking about the limitations, and asking the right questions.</p>
+        <p>Lastly, I want to thank my mentor <a style="text-decoration: underline;" href="https://www.linkedin.com/in/djgarg/" target="_blank">Dhananjay Garg</a> for all his time and effort in teaching me UI/UX Design, working closely with him was an estimable experience. I have enhanced myself in understanding the broad spectrum of design, thinking about the limitations, and asking the right questions.</p>
     </div>
 
     <p style="font-size: 50px; text-align: center;"> . . . </p>
 
-    <p style="text-align: center; margin-top: 40px; margin-bottom: 10px;">Thank you for reading</p>
-    <p style="text-align: center; margin-bottom: 80px;">I am always open to healthy feedback and discussions. You can also reach me on LinkedIn or on my email <b>tejaswitasingh93@gmail.com</b>.</p>
+    <p style="text-align: center; margin-top: 40px; margin-bottom: 10px;">Thank you for reading <img style="margin-left: 7px;
+        margin-bottom: -3px;" src="../assets/Group 7.png" width="20" height="25"></p>
+    <p style="text-align: center; margin-bottom: 80px;">I am always open to healthy feedback and discussions. You can also reach me on <a style="text-decoration: underline;" href="https://www.linkedin.com/in/tejaswita-singh-818034b1/" target="_blank">LinkedIn</a> or on my email <b><a style="text-decoration: underline;" href = "mailto: www.tejaswitasingh93@gmail.com">tejaswitasingh93@gmail.com</a></b>.</p>
 
 </div>
 
 </article>
 </section>
-        <footer style="background: #FEF6F9; padding: 2rem;">
-            <p style="font-size: 28px;margin-bottom: 20px;">Let's connect!</p>
-            <p style="font-size: 20px; margin-bottom: 20px;">Hit me up at <b>tejaswitasingh93@gmail.com</b> :)</p>
-            <span><img src="../assets/Group 2.png" width="38" height="38"></span>
-            <span style="margin-left: 10px;"><img src="../assets/Group 3.png" width="38" height="38"></span>
-            <span style="margin-left: 10px;"><img src="../assets/Group 4.png" width="38" height="38"></span>
-            <div class="small-text footer-author">
-                <p>Made by Tejaswita Singh</p>
-                <p>All content and images © Copyright -2021, </p>
+<footer style="padding: 2rem; background: #FEF6F9;">
+    <p style="font-size: 28px;margin-bottom: 20px;">Let's connect!</p>
+    <p style="font-size: 20px; margin-bottom: 20px;">Hit me up at <b><a href = "mailto: www.tejaswitasingh93@gmail.com">tejaswitasingh93@gmail.com</a></b> :)</p>
+    <span><a href="https://www.linkedin.com/in/tejaswita-singh-818034b1/" target="_blank"><img src="../assets/Group 2.png" width="38" height="38"></a></span>
+    <span style="margin-left: 10px;"><a href="https://dribbble.com/TejaswitaSingh#" target="_blank"><img src="../assets/Group 3.png" width="38" height="38"></a></span>
+    <span style="margin-left: 10px;"><a href = "mailto: www.tejaswitasingh93@gmail.com"><img src="../assets/Group 4.png" width="38" height="38"></a></span>
+    <div class="small-text footer-author">
+        <p>Made by Tejaswita Singh</p>
+        <p>All content and images © Copyright -2021, </p>
+</div>
 </footer>
     </div>
 </body>

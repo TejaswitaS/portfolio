@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Lato', sans-serif;    
     height: 100%;
     min-height: 100%;
 }
@@ -13,6 +13,11 @@ a {
 
 p {
     margin: 0;
+    line-height: 30px;
+}
+
+li {
+    line-height: 30px;
 }
 
 

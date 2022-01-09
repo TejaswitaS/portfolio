@@ -5,11 +5,12 @@
     margin: 0 12%;
 }
 .nav {
-    padding: 4px;
+    padding: 0px 4rem;
 }
 .navbar {
     padding: 0;
     list-style: none;
+    margin-top: 2rem;
 }
 .nav-item {
     margin: 0 1rem;
@@ -34,6 +35,11 @@
     transition: all 0.3s ease-in-out 0s; 
 }
 .nav-item >a:hover {
+    font-weight: 600;
+    color: #E94C89;
+}
+
+.nav-item >a:active {
     font-weight: 600;
     color: #E94C89;
 }
