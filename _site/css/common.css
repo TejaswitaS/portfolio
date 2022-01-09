@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans', sans-serif;    
+    height: 100%;
+    min-height: 100%;
+}
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+
+.flex {
+    display: flex;
+}
+.flex.right {
+    justify-content: right;
+}
+.flex.between {
+    justify-content: space-between;
+}
+.flex.end {
+    justify-content: flex-end;
+}
+.pink {
+    color: #E94C89;
+    font-size: 48px;
+}
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+
+}
+.btn-primary {
+    background: #E94C89;
+    color: #fff;
+    font-size: 16px;
+}
+.btn-outlined {
+    border: 1px solid #E94C89;
+    background: #fff;
+    color: #E94C89;
+    font-size: 16px;
+}
+.small-text {
+    font-size: 12px;
+}
+
+.resume {
+    box-shadow: 4px 4px 8px 4px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 4rem;
+}

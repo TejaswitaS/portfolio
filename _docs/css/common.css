@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;    
+    height: 100%;
+    min-height: 100%;
+}
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+}
+.flex.right {
+    justify-content: right;
+}
+.flex.between {
+    justify-content: space-between;
+}
+.flex.end {
+    justify-content: flex-end;
+}
+.pink {
+    color: #E94C89;
+}
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+
+}
+.btn-primary {
+    background: #E94C89;
+    color: #fff;
+}
+.btn-outlined {
+    border: 1px solid #E94C89;
+    background: #fff;
+    color: #E94C89;
+}
+.small-text {
+    font-size: 12px;
+}
